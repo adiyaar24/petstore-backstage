@@ -1,5 +1,7 @@
-apiVersion: backstage.io/v1alpha1
-kind: Location
+name: "PetStore Main"
+identifier: "petstoremain"
+apiVersion: harness.io/v1
+kind: component
 metadata:
   name: petstore-catalog
   description: Petstore application catalog
