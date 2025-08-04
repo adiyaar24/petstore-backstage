@@ -9,6 +9,7 @@ metadata:
   name: petstore-catalog
   description: Petstore application catalog
 spec:
+  lifecycle: Production
   targets:
     - ./systems/petstore-system/catalog-info.yaml
     - ./components/petstore-frontend/catalog-info.yaml
