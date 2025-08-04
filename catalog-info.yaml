@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Location
+kind: component
 metadata:
   name: petstore-catalog
   description: Petstore application catalog
