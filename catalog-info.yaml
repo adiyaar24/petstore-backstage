@@ -2,6 +2,9 @@ name: "PetStore Main"
 identifier: "petstoremain"
 apiVersion: harness.io/v1
 kind: component
+type: Location
+scope: ACCOUNT
+owner: group:account/All_Users
 metadata:
   name: petstore-catalog
   description: Petstore application catalog
