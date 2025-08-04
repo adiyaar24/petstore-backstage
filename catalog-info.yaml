@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: petstore-catalog
+  description: Petstore application catalog
+spec:
+  targets:
+    - ./systems/petstore-system/catalog-info.yaml
+    - ./components/petstore-frontend/catalog-info.yaml
+    - ./components/petstore-backend/catalog-info.yaml
+    - ./components/petstore-database/catalog-info.yaml
+    - ./apis/petstore-api/catalog-info.yaml
+    - ./resources/petstore-database-resource/catalog-info.yaml
